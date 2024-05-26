@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 const App = () => {
 	const [temperature, setTemperature] = useState(25); // Initial temperature value
