@@ -1,9 +1,25 @@
 import React from "react";
 
 const App = () => {
-  const temperature = 25;
+  const temperature = "iloveyou";
 
-	return <>{/* code here */};</>;
+  return (
+    <>
+      <header>
+        <button>ON/OFF</button>
+        <p>Current Temperature:{temperature}</p>
+      </header>
+      <div>
+        <span>
+          <p>{temperature}</p>
+        </span>
+      </div>
+      <div>
+        <button>Down</button>
+        <button>Up</button>
+      </div>
+    </>
+  );
 };
 
 export default App;
